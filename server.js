@@ -1,4 +1,4 @@
-var cors = require('cors');
+var cors = require("cors");
 const jsonServer = require("json-server");
 const auth = require("json-server-auth");
 
@@ -10,6 +10,9 @@ app.db = router.db;
 
 const rules = auth.rewriter({
   "/users*": "/600/users$1",
+  "/secretaria*": "/644/secretaria$1",
+  "/setores*": "/644/setores$1",
+  "/funcionarios*": "/644/funcionarios$1",
 });
 
 app.use(cors());
