@@ -1,6 +1,106 @@
 {
-  "users": [],
-  "secretaria": [],
-  "setores": [],
-  "funcionarios": []
+  "users": [
+    {
+      "email": "adilsondias@outlook.com",
+      "password": "$2a$10$N.Hw1OBFvcx7Fj1sS7N1sOZ1IzDpIxcb6VaFdW.JwrXBjrEvMWDcG",
+      "id": 1
+    }
+  ],
+  "secretaria": [
+    {
+      "nome": "Secretaria Administração",
+      "email": "secadmin@gmail.com",
+      "telefone": "(31) 36275600",
+      "Secretario": "Tulio Raposos",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "nome": "Secretaria Educação",
+      "email": "secedu@gmail.com",
+      "telefone": "(31) 3627-6001",
+      "Secretario": "Soraya Lourdes",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "nome": "Secretaria Esporte",
+      "email": "secesporte@gmail.com",
+      "telefone": "(31) 3627-6001",
+      "Secretario": "Tassys Bastos",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "nome": "Secretaria Finanças",
+      "email": "secesporte@gmail.com",
+      "telefone": "(31) 3627-6001",
+      "Secretario": "Victor",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "nome": "Secretaria de Desenvolvimento Social e Cidadania",
+      "email": "desenvolvimentosocial@gmail.com",
+      "telefone": "(31) 3627-6001",
+      "Secretario": "Glaúcia Brandão",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "nome": "Secretaria de Meio Ambiente e Desenvolvimento Sustentável",
+      "email": "meioambiente@gmail.com",
+      "telefone": "(31) 3627-6001",
+      "Secretario": "Glaúcia Brandão",
+      "userId": 1,
+      "id": 6
+    }
+  ],
+  "setores": [
+    {
+      "nome": "Assessoria de Gestão do SUAS",
+      "email": "suas@gmail.com",
+      "telefone": "(31) 3627-6001",
+      "Secretario": "Daniel Gomes",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "nome": "Assessoria de Gestão do SUAS",
+      "email": "suas@gmail.com",
+      "telefone": "(31) 3627-6001",
+      "Gestor": "Daniel Gomes",
+      "secretariaId": 2,
+      "userId": 1,
+      "id": 2
+    }
+  ],
+  "funcionarios": [
+    {
+      "nome": "Daniel Gomes",
+      "email": "daniel@gmail.com",
+      "telefone": "(31) 3627-6001",
+      "cargo": "Gerente Bolsa Família",
+      "secretariaId": 2,
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "testes": [
+    {
+      "nome": "teste porta 644",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "nome": "teste porta 644",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "nome": "teste porta 640",
+      "userId": 1,
+      "id": 3
+    }
+  ]
 }

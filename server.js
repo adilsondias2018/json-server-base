@@ -13,6 +13,7 @@ const rules = auth.rewriter({
   "/secretaria*": "/644/secretaria$1",
   "/setores*": "/644/setores$1",
   "/funcionarios*": "/644/funcionarios$1",
+  "/testes*": "/640/testes$1",
 });
 
 app.use(cors());
